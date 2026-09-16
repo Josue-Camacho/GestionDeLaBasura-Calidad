@@ -12,7 +12,6 @@ Realizar análisis estático del proyecto utilizando SonarQube, identificar prob
 - SonarScanner
 - Git / GitHub
 - Trello
-- Jest
 
 ## Configuración de SonarQube
 
