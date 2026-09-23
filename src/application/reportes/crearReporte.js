@@ -3,7 +3,7 @@ async function crearReporte({ reporteRepo, reportePresenter }, datos) {
     throw new Error("La descripción es obligatoria.");
   }
 
-  if (!datos.ubicacion || !datos.ubicacion.trim()) {
+  if (!datos.ubicacion?.trim()) {
     throw new Error("La ubicación es obligatoria.");
   }
 
