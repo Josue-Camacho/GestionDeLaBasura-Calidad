@@ -1,5 +1,5 @@
 async function crearUsuario({ usuarioRepo, hashService, usuarioPresenter }, datos) {
-  if (!datos.nombre || !datos.nombre.trim()) {
+  if (!datos.nombre?.trim()) {
     throw new Error("El nombre es obligatorio.");
   }
   if (!datos.correo || !datos.correo.trim()) {
