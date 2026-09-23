@@ -226,8 +226,7 @@ function cerrarModal() {
     return;
   }
 
-  modal.classList.add("hidden");
-  modal.classList.add("modal--hidden");
+  modal.classList.add("hidden", "modal--hidden");
   limpiarFormulario();
 }
 
