@@ -170,6 +170,13 @@ body {
   gap: 10px;
 }
 
+.form__label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: -4px;
+}
+
 #form-reporte input,
 #form-reporte textarea {
   padding: 10px;
