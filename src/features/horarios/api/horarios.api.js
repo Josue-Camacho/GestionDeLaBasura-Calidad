@@ -21,7 +21,7 @@ async function requestJson(path, options = {}) {
     const response = await fetch(`${BASE_URL}${path}`, {
       headers: {
         "Content-Type": "application/json",
-        ...(options.headers || {})
+        ...options.headers
       },
       ...options
     });
