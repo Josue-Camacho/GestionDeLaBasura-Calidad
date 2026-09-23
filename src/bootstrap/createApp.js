@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+const { CORS_ORIGIN } = require("../config");
 
 const horariosController = require("../features/horarios/controller/horarios.controller");
 const usuariosRoutes = require("../features/usuarios/routes/usuarios.routes.js");
@@ -8,7 +9,9 @@ const reportesRoutes = require("../features/reportes/routes/reportes.routes.js")
 function createApp() {
   const app = express();
 
-  app.use(cors());
+  app.use(cors({
+    origin: CORS_ORIGIN
+  }));
   app.use(express.json());
 
   app.get("/", (req, res) => {
