@@ -190,7 +190,7 @@ img {
 .clima-card {
   position: relative;
   z-index: 1;
-  background: rgba(255, 255, 255, 0.06);
+  background: #374151;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.12);
