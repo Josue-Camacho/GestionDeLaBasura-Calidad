@@ -19,7 +19,7 @@ body {
 }
 
 a {
-  color: #4caf50;
+  color: #2e7d32;
   text-decoration: none;
 }
 a:hover {
@@ -46,21 +46,21 @@ img {
   text-decoration: none;
 }
 .btn--reportes {
-  background-color: #4caf50;
+  background-color: #2e7d32;
   color: #ffffff;
   letter-spacing: 0.02em;
 }
 .btn--reportes:hover {
-  background-color: #388e3c;
+  background-color: #1b5e20;
   transform: translateY(-1px);
-  box-shadow: 0 4px 14px rgba(76, 175, 80, 0.4);
+  box-shadow: 0 4px 14px rgba(46, 125, 50, 0.4);
   text-decoration: none;
 }
 .btn--reportes:active {
   transform: translateY(0);
 }
 .btn--hero {
-  background-color: #4caf50;
+  background-color: #2e7d32;
   color: #ffffff;
   padding: 14px 32px;
   font-size: 1rem;
@@ -68,9 +68,9 @@ img {
   margin-top: 24px;
 }
 .btn--hero:hover {
-  background-color: #388e3c;
+  background-color: #1b5e20;
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(76, 175, 80, 0.45);
+  box-shadow: 0 6px 20px rgba(46, 125, 50, 0.45);
   text-decoration: none;
 }
 .btn--hero:active {
@@ -106,7 +106,7 @@ img {
 .navbar__sub {
   font-size: 0.72rem;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.75);
   font-family: "DM Mono", monospace;
   margin-left: 2px;
   align-self: flex-end;
@@ -118,14 +118,14 @@ img {
   gap: 24px;
 }
 .navbar__link {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.85);
   font-size: 0.88rem;
   font-weight: 500;
   text-decoration: none;
   transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navbar__link--active {
-  color: #4caf50;
+  color: #81c784;
   font-weight: 700;
 }
 .navbar__link:hover {
@@ -147,7 +147,7 @@ img {
   position: absolute;
   inset: 0;
   opacity: 0.04;
-  background-image: radial-gradient(circle, #4caf50 1px, transparent 1px);
+  background-image: radial-gradient(circle, #2e7d32 1px, transparent 1px);
   background-size: 28px 28px;
   pointer-events: none;
 }
@@ -160,12 +160,12 @@ img {
 .hero__greeting {
   font-size: 1rem;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.85);
   margin-bottom: 10px;
   font-family: "DM Mono", monospace;
 }
 .hero__username {
-  color: #4caf50;
+  color: #81c784;
   font-weight: 600;
 }
 .hero__heading {
@@ -179,11 +179,11 @@ img {
 .hero__heading em {
   font-style: italic;
   font-weight: 300;
-  color: #4caf50;
+  color: #81c784;
 }
 .hero__desc {
   font-size: 1rem;
-  color: rgba(255, 255, 255, 0.65);
+  color: rgba(255, 255, 255, 0.85);
   line-height: 1.7;
 }
 
@@ -211,12 +211,12 @@ img {
 .clima-card__city {
   font-size: 0.78rem;
   font-family: "DM Mono", monospace;
-  color: rgba(255, 255, 255, 0.65);
+  color: rgba(255, 255, 255, 0.90);
 }
 .clima-card__badge {
   font-size: 0.68rem;
   font-weight: 600;
-  background-color: #4caf50;
+  background-color: #2e7d32;
   color: #ffffff;
   padding: 2px 9px;
   border-radius: 20px;
@@ -241,7 +241,7 @@ img {
 }
 .clima-card__desc {
   font-size: 0.88rem;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.92);
   margin-bottom: 20px;
 }
 .clima-card__footer {
@@ -250,18 +250,18 @@ img {
   gap: 6px;
   font-size: 0.82rem;
   font-family: "DM Mono", monospace;
-  color: rgba(255, 255, 255, 0.65);
+  color: rgba(255, 255, 255, 0.85);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 14px;
   margin-bottom: 12px;
 }
 .clima-card__note {
   font-size: 0.68rem;
-  color: rgba(255, 255, 255, 0.35);
+  color: rgba(255, 255, 255, 0.75);
   font-family: "DM Mono", monospace;
 }
 .clima-card__note a {
-  color: rgba(76, 175, 80, 0.8);
+  color: #81c784;
 }
 
 .mapa {
@@ -285,7 +285,7 @@ img {
 
 .mapa__subtitle {
   font-size: 0.95rem;
-  color: #718096;
+  color: #4a5568;
   line-height: 1.6;
 }
 
@@ -330,7 +330,7 @@ img {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: #4caf50;
+  color: #2e7d32;
   font-family: "DM Mono", monospace;
 }
 
@@ -351,7 +351,7 @@ img {
 }
 
 .mapa__nota {
-  color: #718096;
+  color: #4a5568;
   font-size: 0.82rem;
 }
 
@@ -373,7 +373,7 @@ img {
 }
 .horarios__subtitle {
   font-size: 0.95rem;
-  color: #718096;
+  color: #4a5568;
   line-height: 1.6;
 }
 
@@ -411,8 +411,8 @@ img {
   outline: none;
 }
 .filtro__select:focus {
-  border-color: #4caf50;
-  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.15);
+  border-color: #2e7d32;
+  box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.15);
 }
 .filtro__select:hover {
   border-color: rgb(175.5795454545, 192.0113636364, 213.9204545455);
@@ -423,7 +423,7 @@ img {
   top: 50%;
   transform: translateY(-50%);
   pointer-events: none;
-  color: #718096;
+  color: #4a5568;
 }
 
 .zonas-grid {
@@ -448,20 +448,20 @@ img {
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.14);
 }
 .zona-card--verde {
-  border-left-color: #4caf50;
+  border-left-color: #2e7d32;
 }
 .zona-card--azul {
-  border-left-color: #3182ce;
+  border-left-color: #2b6cb0;
 }
 .zona-card--naranja {
-  border-left-color: #e67e22;
+  border-left-color: #c05621;
 }
 .zona-card--gris {
-  border-left-color: #718096;
+  border-left-color: #4a5568;
 }
 .zona-card--recoge-hoy {
-  border-left-color: #4caf50;
-  background: linear-gradient(135deg, #ffffff 70%, rgba(76, 175, 80, 0.06) 100%);
+  border-left-color: #2e7d32;
+  background: linear-gradient(135deg, #ffffff 70%, rgba(46, 125, 50, 0.06) 100%);
 }
 .zona-card--recoge-hoy::before {
   content: "";
@@ -470,14 +470,14 @@ img {
   right: 0;
   width: 80px;
   height: 80px;
-  background: radial-gradient(circle at top right, rgba(76, 175, 80, 0.12), transparent 70%);
+  background: radial-gradient(circle at top right, rgba(46, 125, 50, 0.12), transparent 70%);
   pointer-events: none;
 }
 .zona-card__badge-hoy {
   display: inline-block;
   font-size: 0.72rem;
   font-weight: 700;
-  background-color: #4caf50;
+  background-color: #2e7d32;
   color: #ffffff;
   padding: 3px 10px;
   border-radius: 20px;
@@ -496,7 +496,7 @@ img {
   font-size: 0.72rem;
   font-weight: 600;
   font-family: "DM Mono", monospace;
-  color: #718096;
+  color: #4a5568;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   display: block;
@@ -512,7 +512,7 @@ img {
   font-size: 0.72rem;
   font-weight: 500;
   background-color: #f0f2f5;
-  color: #718096;
+  color: #4a5568;
   padding: 4px 10px;
   border-radius: 20px;
   white-space: nowrap;
@@ -546,7 +546,7 @@ img {
 }
 .zona-card__nota {
   font-size: 0.78rem;
-  color: #718096;
+  color: #4a5568;
   line-height: 1.5;
   border-top: 1px solid #e2e8f0;
   padding-top: 10px;
@@ -561,21 +561,21 @@ img {
   padding: 4px 8px;
   border-radius: 6px;
   background-color: #f0f2f5;
-  color: #718096;
-  border: 1px solid #e2e8f0;
+  color: #4a5568;
+  border: 1px solid #cbd5e1;
   transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .dia-chip--activo {
   background-color: #c8e6c9;
-  color: #388e3c;
-  border-color: #4caf50;
+  color: #1b5e20;
+  border-color: #2e7d32;
   font-weight: 700;
 }
 .dia-chip--hoy {
-  background-color: #4caf50;
+  background-color: #2e7d32;
   color: #ffffff;
-  border-color: #388e3c;
-  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.4);
+  border-color: #1b5e20;
+  box-shadow: 0 2px 8px rgba(46, 125, 50, 0.4);
   transform: scale(1.1);
 }
 
@@ -583,8 +583,8 @@ img {
   display: flex;
   align-items: flex-start;
   gap: 16px;
-  background-color: rgba(49, 130, 206, 0.07);
-  border: 1px solid rgba(49, 130, 206, 0.2);
+  background-color: rgba(43, 108, 176, 0.07);
+  border: 1px solid rgba(43, 108, 176, 0.2);
   border-radius: 14px;
   padding: 20px 24px;
   font-size: 0.88rem;
@@ -598,7 +598,7 @@ img {
   margin-top: 2px;
 }
 .emsa-banner a {
-  color: #3182ce;
+  color: #2b6cb0;
   font-weight: 600;
 }
 
@@ -606,7 +606,7 @@ img {
   text-align: center;
   padding: 24px 32px;
   background-color: #2d3748;
-  color: rgba(255, 255, 255, 0.45);
+  color: rgba(255, 255, 255, 0.75);
   font-size: 0.8rem;
   font-family: "DM Mono", monospace;
 }

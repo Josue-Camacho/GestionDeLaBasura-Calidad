@@ -2,13 +2,13 @@
 //  VARIABLES BASE
 // ──────────────────────────────────────────
 $color-dark:        #2d3748;
-$color-green:       #4caf50;
-$color-green-dark:  #388e3c;
+$color-green:       #2e7d32;       // Verde accesible WCAG AA >= 4.5:1 (ISS-014)
+$color-green-dark:  #1b5e20;       // Hover verde accesible
 $color-bg:          #f0f2f5;
 $color-white:       #ffffff;
 $color-text:        #1a202c;
-$color-text-muted:  #718096;
-$color-border:      #e2e8f0;
+$color-text-muted:  #4a5568;       // Gris oscuro accesible WCAG AA >= 4.5:1 (ISS-014)
+$color-border:      #cbd5e1;
 
 $font-main:   'Sora', sans-serif;
 $radius-md:   14px;
@@ -100,7 +100,7 @@ body { font-family: $font-main; background-color: $color-bg; color: $color-text;
     
     &--submit {
         background-color: $color-green; color: $color-white; margin-top: 10px;
-        &:hover { background-color: $color-green-dark; transform: translateY(-2px); box-shadow: 0 6px 15px rgba($color-green, 0.3); }
+        &:hover { background-color: $color-green-dark; transform: translateY(-2px); box-shadow: 0 6px 15px rgba(46, 125, 50, 0.3); }
         &:active { transform: translateY(0); }
     }
 }
