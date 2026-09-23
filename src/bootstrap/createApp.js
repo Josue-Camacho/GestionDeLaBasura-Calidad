@@ -8,7 +8,11 @@ const reportesRoutes = require("../features/reportes/routes/reportes.routes.js")
 function createApp() {
   const app = express();
 
-  app.use(cors());
+  app.use(
+    cors({
+      origin: process.env.CORS_ORIGIN || "http://localhost:1234"
+    })
+  );
   app.use(express.json());
 
   app.get("/", (req, res) => {
