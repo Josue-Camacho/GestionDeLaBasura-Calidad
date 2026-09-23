@@ -9,7 +9,9 @@ async function getAllUsuarios() {
     `);
     return result.rows;
   } catch (error) {
-    throw new Error("Error en base de datos al obtener usuarios.");
+    throw new Error("Error en base de datos al obtener usuarios.", {
+      cause: error,
+    });
   }
 }
 
