@@ -1,7 +1,7 @@
 async function autenticarUsuario(dependencias, credenciales) {
   const { usuarioRepo, hashService, tokenService, usuarioPresenter } = dependencias;
 
-  if (!credenciales.correo || !credenciales.correo.trim()) {
+  if (!credenciales.correo?.trim()) {
     throw new Error("El correo es obligatorio.");
   }
   if (!credenciales.password) {
