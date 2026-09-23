@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+const { CORS_ORIGIN } = require("../config");
 
 const horariosController = require("../features/horarios/controller/horarios.controller");
 const usuariosRoutes = require("../features/usuarios/routes/usuarios.routes.js");
@@ -10,7 +11,7 @@ function createApp() {
 
   app.use(
     cors({
-      origin: process.env.CORS_ORIGIN || "http://localhost:1234"
+      origin: CORS_ORIGIN
     })
   );
   app.use(express.json());

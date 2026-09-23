@@ -78,8 +78,7 @@ body {
 }
 
 .reporte-card {
-  background: var(--white);
-  border-radius: 12px;
+  background: var(--white);\n  border-radius: 12px;
   padding: 16px;
   border: 1px solid var(--border);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
@@ -173,6 +172,13 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.form__label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: -4px;
 }
 
 #form-reporte input,
