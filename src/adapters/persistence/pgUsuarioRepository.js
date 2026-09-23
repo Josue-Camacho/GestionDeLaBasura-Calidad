@@ -23,7 +23,9 @@ async function getUsuarioByCorreo(correo) {
     );
     return result.rows[0] || null;
   } catch (error) {
-    throw new Error("Error en base de datos al buscar usuario por correo.");
+    throw new Error("Error en base de datos al buscar usuario por correo.", {
+      cause: error,
+    });
   }
 }
 
