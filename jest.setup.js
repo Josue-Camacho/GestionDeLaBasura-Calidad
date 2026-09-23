@@ -1,6 +1,6 @@
 const { TextEncoder, TextDecoder } = require("util");
 
-if (typeof global.TextEncoder === "undefined") {
+if (global.TextEncoder === undefined) {
   global.TextEncoder = TextEncoder;
 }
 
