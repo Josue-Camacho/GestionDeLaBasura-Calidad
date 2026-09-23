@@ -288,7 +288,7 @@ function obtenerDatosFormulario() {
 function obtenerReporteIdFormulario() {
   const reporteIdInput = document.getElementById("reporte_id");
 
-  if (!reporteIdInput || !reporteIdInput.value) {
+  if (!reporteIdInput?.value) {
     return null;
   }
 
