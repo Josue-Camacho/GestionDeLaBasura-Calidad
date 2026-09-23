@@ -1,5 +1,5 @@
 async function crearReporte({ reporteRepo, reportePresenter }, datos) {
-  if (!datos.descripcion || !datos.descripcion.trim()) {
+  if (!datos.descripcion?.trim()) {
     throw new Error("La descripción es obligatoria.");
   }
 
