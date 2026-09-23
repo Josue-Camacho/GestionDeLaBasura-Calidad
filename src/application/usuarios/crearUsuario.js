@@ -2,7 +2,7 @@ async function crearUsuario({ usuarioRepo, hashService, usuarioPresenter }, dato
   if (!datos.nombre?.trim()) {
     throw new Error("El nombre es obligatorio.");
   }
-  if (!datos.correo || !datos.correo.trim()) {
+  if (!datos.correo?.trim()) {
     throw new Error("El correo es obligatorio.");
   }
   if (!datos.password) {
